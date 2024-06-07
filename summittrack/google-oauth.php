@@ -6,7 +6,8 @@ include 'config.php';
 
 // Update the following variables
 $google_oauth_client_id = '166228259741-dc63c3kole60brqa0t500h9vqj2khpi3.apps.googleusercontent.com';
-
+$google_oauth_client_secret = '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';
+$google_oauth_redirect_uri = 'http://localhost/summittrack/google-oauth.php';
 $google_oauth_version = 'v3';
 // If the captured code param exists and is valid
 if (isset($_GET['code']) && !empty($_GET['code'])) {
